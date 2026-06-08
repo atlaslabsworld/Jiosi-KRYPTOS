@@ -505,7 +505,7 @@ The top candidate pair is useful because it turns scattered public evidence into
 \setcounter{section}{0}
 \renewcommand{\thesection}{Appendix \Alph{section}}
 \section{Reproducibility Audit}
-This appendix records the mechanical checks used to verify the candidate table and the modular arithmetic claims. The source distribution includes a Python audit script. Running that script prints \texttt{Appendix A audit passed} when all checks below hold.
+This appendix records the mechanical checks used to verify the candidate table and the modular arithmetic claims. The audit code is included inline in \autoref{code:appendixAuditScript}; executing the listing in a Python interpreter prints \texttt{Appendix A audit passed} when all checks below hold.
 
 \begin{table}[H]
 \caption{Appendix A audit targets. These checks verify structure only; they do not validate a cipher method.}
@@ -535,6 +535,105 @@ The audit procedure is:
     \item compute the standard-alphabet and Kryptos-alphabet modular residues using $\alpha(c_i)-\alpha(p_i)\bmod 26$;
     \item segment the top pair into normalized word intervals and assert the shared intervals in \autoref{tab:sharedIntervals}.
 \end{enumerate}
+
+The audit uses two indexing conventions, and the distinction is intentional. Python slices such as \texttt{n4[21:34]} are zero-based and half-open, so they test the paper's one-based interval 22--34. By contrast, the word-interval routine initializes \texttt{position = 1} because the intervals reported in \autoref{tab:sharedIntervals} and in the set notation are published character positions over $1,\ldots,97$, not Python indexes. Thus \texttt{MESSAGE} in the top pair is reported as positions 10--16 rather than 9--15.
+
+\begin{lstlisting}[style=paperPython,caption={Python audit for Appendix A reproducibility checks.},label={code:appendixAuditScript}]
+import re
+
+STD = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+KRYPTOS = "KRYPTOSABCDEFGHIJLMNQUVWXZ"
+
+PAIRS = {
+    "A": (
+        "EGYPT TRIP MESSAGE HIDES EAST NORTHEAST PAST A FALLEN WALL "
+        "WHERE WORLD TIME BERLIN CLOCK DELIVERS THE FINAL MESSAGE",
+        "CACHE LIES MESSAGE HIDES SITE SOMEWHERE PAST A BURIED WALL "
+        "WHERE STONE TIME COPPER FIELD DELIVERS THE FINAL MESSAGE",
+    ),
+    "B": (
+        "A KRYPTOS CIPHER MESSAGE EAST NORTHEAST WHERE EGYPT WALL "
+        "AND WORLD TIME MET BERLIN CLOCK DELIVERS THE FINAL MESSAGE",
+        "A KRYPTOS CIPHER MESSAGE EAST NORTHEAST WHERE EARTH MAGNETIC "
+        "FIELD POINTS BERLIN CLOCK SHOWS WHERE CACHE IS BURIED",
+    ),
+    "C": (
+        "MY HIDDEN CIPHER MESSAGE EAST NORTHEAST WHERE EGYPT WALL "
+        "AND WORLD TIME MET BERLIN CLOCK SHOWS WHERE HIDDEN PLACE IS",
+        "MY HIDDEN CIPHER MESSAGE EAST NORTHEAST WHERE EARTH MAGNETIC "
+        "FIELD POINTS BERLIN CLOCK SHOWS WHERE CACHE IS BURIED",
+    ),
+    "D": (
+        "COUNT LIGHT FIELDS TO USE EAST NORTHEAST LIGHT FIELDS GIVE "
+        "THE HIDDEN ROUTE BERLIN CLOCK DELIVERS THE FINAL MESSAGE",
+        "COUNT LIGHT FIELDS TO USE EAST NORTHEAST LIGHT FIELDS MARK "
+        "THE BURIED CACHE BERLIN CLOCK SHOWS WHERE CACHE IS BURIED",
+    ),
+}
+
+
+def norm(text):
+    return re.sub(r"[^A-Z]", "", text.upper())
+
+
+def residues(ciphertext, plaintext, alphabet):
+    index = {ch: i for i, ch in enumerate(alphabet)}
+    return "".join(
+        alphabet[(index[c] - index[p]) % 26]
+        for c, p in zip(ciphertext, plaintext)
+    )
+
+
+def intervals(text):
+    position = 1
+    result = []
+    for word in text.split():
+        nword = norm(word)
+        result.append((nword, position, position + len(nword) - 1))
+        position += len(nword)
+    return result
+
+
+def main():
+    for name, (p4, q5) in PAIRS.items():
+        n4, n5 = norm(p4), norm(q5)
+        assert len(n4) == 97, (name, "K4 length", len(n4))
+        assert len(n5) == 97, (name, "K5 length", len(n5))
+        assert n4[21:34] == "EASTNORTHEAST", (name, "first crib")
+        assert n4[63:74] == "BERLINCLOCK", (name, "second crib")
+
+    top4, top5 = PAIRS["A"]
+    assert norm(top5)[21:34] == "SITESOMEWHERE"
+    assert norm(top5)[63:74] == "COPPERFIELD"
+
+    shared = [
+        left for left, right in zip(intervals(top4), intervals(top5))
+        if left == right
+    ]
+    assert shared == [
+        ("MESSAGE", 10, 16),
+        ("HIDES", 17, 21),
+        ("PAST", 35, 38),
+        ("A", 39, 39),
+        ("WALL", 46, 49),
+        ("WHERE", 50, 54),
+        ("TIME", 60, 63),
+        ("DELIVERS", 75, 82),
+        ("THE", 83, 85),
+        ("FINAL", 86, 90),
+        ("MESSAGE", 91, 97),
+    ]
+
+    assert residues("FLRVQQPRNGKSS", "EASTNORTHEAST", STD) == "BLZCDCYYGCKAZ"
+    assert residues("NYPVTTMZFPK", "BERLINCLOCK", STD) == "MUYKLGKORNA"
+    assert residues("FLRVQQPRNGKSS", "EASTNORTHEAST", KRYPTOS) == "RDUMRIYWOYNKY"
+    assert residues("NYPVTTMZFPK", "BERLINCLOCK", KRYPTOS) == "ELYOIECBAQK"
+    print("Appendix A audit passed")
+
+
+if __name__ == "__main__":
+    main()
+\end{lstlisting}
 
 The audit is intentionally narrow. It verifies that the paper's tables, residue strings, and interval statements are internally reproducible. It does not test any enciphering method, and it does not convert any candidate phrase into a solution.
 \end{theappendices}

@@ -51,6 +51,7 @@
 \RequirePackage{chemscheme}
 \RequirePackage{tocbasic}
 \RequirePackage{float}
+\RequirePackage{listings}
 \floatstyle{plaintop}
 \RequirePackage{amsmath}
 \RequirePackage{etoolbox}
@@ -88,6 +89,30 @@
 \captionsetup[scheme]{textfont=it,format=plain,justification=justified,
   singlelinecheck=false,labelsep=spaced,skip=0pt, labelfont=bf, skip=10pt}
 \restylefloat{scheme}
+\renewcommand{\lstlistingname}{Code}
+\renewcommand{\lstlistlistingname}{List of Code}
+\providecommand{\lstlistingautorefname}{Code}
+\lstdefinestyle{paperPython}{
+  language=Python,
+  basicstyle=\ttfamily\footnotesize,
+  keywordstyle=\bfseries,
+  commentstyle=\itshape,
+  stringstyle=\ttfamily,
+  numbers=left,
+  numberstyle=\tiny,
+  stepnumber=1,
+  numbersep=8pt,
+  frame=single,
+  columns=fullflexible,
+  keepspaces=true,
+  showstringspaces=false,
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=4,
+  captionpos=t
+}
+\captionsetup[lstlisting]{textfont=it,format=plain,justification=justified,
+  singlelinecheck=false,labelsep=spaced,skip=0pt, labelfont=bf, skip=10pt}
 %------------------------------------------------------------------------%
 
 %---------------------------------Author Info----------------------------%
@@ -458,6 +483,8 @@
     \renewcommand{\thefigure}{A\arabic{figure}}
     \setcounter{table}{0}
     \renewcommand{\thetable}{B\arabic{table}}
+    \setcounter{lstlisting}{0}
+    \renewcommand{\thelstlisting}{\Alph{section}\arabic{lstlisting}}
     
     % Change space between Table Number and Table Title
     \addtocontents{lot}{\protect\renewcommand{\protect\cfttabnumwidth}{5em}}
