@@ -221,7 +221,7 @@
 \begin{center}
 \begin{singlespacing}
     \copyright \ \@copyrightyear \ \@author\\
-    \textit{Preprint DOI: \href{}{\nolinkurl{}}}
+    \textit{Preprint DOI: \href{https://doi.org/10.5281/zenodo.20587505}{\nolinkurl{https://doi.org/10.5281/zenodo.20587505}}}
 \end{singlespacing}
 \end{center}
 \newpage

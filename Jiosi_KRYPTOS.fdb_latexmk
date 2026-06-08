@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Jiosi_KRYPTOS"] 1780887818.50424 "Jiosi_KRYPTOS.bcf" "Jiosi_KRYPTOS.bbl" "Jiosi_KRYPTOS" 1780889558.81439 0
-  "Jiosi_KRYPTOS.bcf" 1780889558.68848 109876 2f6175b916925795e50e71475ba77c75 "pdflatex"
+["biber Jiosi_KRYPTOS"] 1780887818.50424 "Jiosi_KRYPTOS.bcf" "Jiosi_KRYPTOS.bbl" "Jiosi_KRYPTOS" 1780889900.73285 0
+  "Jiosi_KRYPTOS.bcf" 1780889900.61016 109876 2f6175b916925795e50e71475ba77c75 "pdflatex"
   "references.bib" 1780887700.57579 5698 dd155e5cadc77dce66d949602cb300e9 ""
   (generated)
   "Jiosi_KRYPTOS.bbl"
   "Jiosi_KRYPTOS.blg"
   (rewritten before read)
-["pdflatex"] 1780889557.01615 "/Users/nicchio/Documents/tmp/LaTex/Jiosi-KRYPTOS/Jiosi_KRYPTOS.tex" "Jiosi_KRYPTOS.pdf" "Jiosi_KRYPTOS" 1780889558.81467 0
+["pdflatex"] 1780889899.09724 "/Users/nicchio/Documents/tmp/LaTex/Jiosi-KRYPTOS/Jiosi_KRYPTOS.tex" "Jiosi_KRYPTOS.pdf" "Jiosi_KRYPTOS" 1780889900.73314 0
   "/Users/nicchio/Documents/tmp/LaTex/Jiosi-KRYPTOS/Jiosi_KRYPTOS.tex" 1780889555.08901 46882 448c7d04dcac9a829510083ec84cad1e ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -265,16 +265,16 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1775915246 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1774209607 3636776 dc5fa9b6b1453b9d196cd42edf876004 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "Jiosi_KRYPTOS.aux" 1780889558.68576 11545 7df1c2d9800342e8ea9171175b6b803f "pdflatex"
+  "Jiosi_KRYPTOS.aux" 1780889900.60157 11545 7df1c2d9800342e8ea9171175b6b803f "pdflatex"
   "Jiosi_KRYPTOS.bbl" 1780887820.03142 18576 9dc284853f8eea7a81cf4c2dfa557d2c "biber Jiosi_KRYPTOS"
-  "Jiosi_KRYPTOS.out" 1780889558.68742 3965 57c01788531cd4d6d29d362f14bfc1a0 "pdflatex"
-  "Jiosi_KRYPTOS.run.xml" 1780889558.68925 2432 27e222070f710e7f4f720e5156f71bbd "pdflatex"
+  "Jiosi_KRYPTOS.out" 1780889900.60435 3965 57c01788531cd4d6d29d362f14bfc1a0 "pdflatex"
+  "Jiosi_KRYPTOS.run.xml" 1780889900.61096 2432 27e222070f710e7f4f720e5156f71bbd "pdflatex"
   "Jiosi_KRYPTOS.tex" 1780889555.08901 46882 448c7d04dcac9a829510083ec84cad1e ""
   "figures/alexanderplatz_urania_world_clock.jpg" 1780877392.71409 319986 59d1aa042e220455c0e0c2e8b77d17fb ""
   "figures/berlin_clock_geography_map.png" 1780887465.16892 1665892 c57be81c81eb89654a71aa07558788d6 ""
   "figures/berlin_uhr_sequence_1650_1705.png" 1780877876.07204 207691 62dd56a80437f3215a288e183a9775da ""
   "figures/mengenlehreuhr_berlin_uhr.jpg" 1780877392.72019 257463 4af711a96dd94ea05133e2936245c552 ""
-  "paperFormatting.cls" 1780888872.00675 15343 507685c439806efc84fb4a80b1b141a8 ""
+  "paperFormatting.cls" 1780889898.87268 15421 42ffecaefc5e0810089626ac46227fee ""
   (generated)
   "Jiosi_KRYPTOS.aux"
   "Jiosi_KRYPTOS.bcf"
