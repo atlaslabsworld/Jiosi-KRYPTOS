@@ -1,0 +1,438 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{verganoFinalClues2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=131f98967357eec722553259affe37d4}{%
+           family={Vergano},
+           familyi={V\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{131f98967357eec722553259affe37d4}
+      \strng{fullhash}{131f98967357eec722553259affe37d4}
+      \strng{fullhashraw}{131f98967357eec722553259affe37d4}
+      \strng{bibnamehash}{131f98967357eec722553259affe37d4}
+      \strng{authorbibnamehash}{131f98967357eec722553259affe37d4}
+      \strng{authornamehash}{131f98967357eec722553259affe37d4}
+      \strng{authorfullhash}{131f98967357eec722553259affe37d4}
+      \strng{authorfullhashraw}{131f98967357eec722553259affe37d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Archived at: \url{https://web.archive.org/web/20260228112927/https://www.scientificamerican.com/article/cia-kryptos-puzzle-creator-releases-final-clues/}}
+      \field{journaltitle}{Scientific American}
+      \field{title}{Final Clues to Mystery of CIA Kryptos Puzzle Released}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.scientificamerican.com/article/cia-kryptos-puzzle-creator-releases-final-clues/
+      \endverb
+      \verb{url}
+      \verb https://www.scientificamerican.com/article/cia-kryptos-puzzle-creator-releases-final-clues/
+      \endverb
+    \endentry
+    \entry{ciaKryptosSculpture}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=a9f620b61e8a256713dc8b633d194210}{%
+           family={{Central Intelligence Agency}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9f620b61e8a256713dc8b633d194210}
+      \strng{fullhash}{a9f620b61e8a256713dc8b633d194210}
+      \strng{fullhashraw}{a9f620b61e8a256713dc8b633d194210}
+      \strng{bibnamehash}{a9f620b61e8a256713dc8b633d194210}
+      \strng{authorbibnamehash}{a9f620b61e8a256713dc8b633d194210}
+      \strng{authornamehash}{a9f620b61e8a256713dc8b633d194210}
+      \strng{authorfullhash}{a9f620b61e8a256713dc8b633d194210}
+      \strng{authorfullhashraw}{a9f620b61e8a256713dc8b633d194210}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Archived at: \url{https://web.archive.org/web/20260529171756/https://www.cia.gov/legacy/headquarters/kryptos-sculpture/}}
+      \field{note}{CIA legacy headquarters page}
+      \field{title}{``Kryptos'' Sculpture}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cia.gov/legacy/headquarters/kryptos-sculpture/
+      \endverb
+      \verb{url}
+      \verb https://www.cia.gov/legacy/headquarters/kryptos-sculpture/
+      \endverb
+    \endentry
+    \entry{basilioKryptosSolution2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=95afe5977932182a886beb5dcf079a23}{%
+           family={Basilio},
+           familyi={B\bibinitperiod},
+           given={Humberto},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{95afe5977932182a886beb5dcf079a23}
+      \strng{fullhash}{95afe5977932182a886beb5dcf079a23}
+      \strng{fullhashraw}{95afe5977932182a886beb5dcf079a23}
+      \strng{bibnamehash}{95afe5977932182a886beb5dcf079a23}
+      \strng{authorbibnamehash}{95afe5977932182a886beb5dcf079a23}
+      \strng{authornamehash}{95afe5977932182a886beb5dcf079a23}
+      \strng{authorfullhash}{95afe5977932182a886beb5dcf079a23}
+      \strng{authorfullhashraw}{95afe5977932182a886beb5dcf079a23}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Archived at: \url{https://web.archive.org/web/20260528051504/https://www.scientificamerican.com/article/a-solution-to-the-cias-kryptos-code-is-found-after-35-years/}}
+      \field{journaltitle}{Scientific American}
+      \field{title}{A Solution to the CIA's Kryptos Code Is Found after 35 Years}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.scientificamerican.com/article/a-solution-to-the-cias-kryptos-code-is-found-after-35-years/
+      \endverb
+      \verb{url}
+      \verb https://www.scientificamerican.com/article/a-solution-to-the-cias-kryptos-code-is-found-after-35-years/
+      \endverb
+    \endentry
+    \entry{caseyAP2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=321effc03c39635b982834518300792f}{%
+           family={Casey},
+           familyi={C\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Associated Press}%
+      }
+      \strng{namehash}{321effc03c39635b982834518300792f}
+      \strng{fullhash}{321effc03c39635b982834518300792f}
+      \strng{fullhashraw}{321effc03c39635b982834518300792f}
+      \strng{bibnamehash}{321effc03c39635b982834518300792f}
+      \strng{authorbibnamehash}{321effc03c39635b982834518300792f}
+      \strng{authornamehash}{321effc03c39635b982834518300792f}
+      \strng{authorfullhash}{321effc03c39635b982834518300792f}
+      \strng{authorfullhashraw}{321effc03c39635b982834518300792f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{month}{11}
+      \field{title}{Kryptos' Final Code Remains Unsolved. The CIA Sculpture's Creator Is Auctioning the Solution}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://apnews.com/article/650c1253d6a96591f29b88a20299c430
+      \endverb
+      \verb{url}
+      \verb https://apnews.com/article/650c1253d6a96591f29b88a20299c430
+      \endverb
+    \endentry
+    \entry{berlinWorldClock}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3ea0d594ebffa0eae87918dbadcd0d80}{%
+           family={{Berlin.de}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ea0d594ebffa0eae87918dbadcd0d80}
+      \strng{fullhash}{3ea0d594ebffa0eae87918dbadcd0d80}
+      \strng{fullhashraw}{3ea0d594ebffa0eae87918dbadcd0d80}
+      \strng{bibnamehash}{3ea0d594ebffa0eae87918dbadcd0d80}
+      \strng{authorbibnamehash}{3ea0d594ebffa0eae87918dbadcd0d80}
+      \strng{authornamehash}{3ea0d594ebffa0eae87918dbadcd0d80}
+      \strng{authorfullhash}{3ea0d594ebffa0eae87918dbadcd0d80}
+      \strng{authorfullhashraw}{3ea0d594ebffa0eae87918dbadcd0d80}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Archived at: \url{https://web.archive.org/web/20251209075501/https://www.berlin.de/sehenswuerdigkeiten/3561749-3558930-weltzeituhr.html}}
+      \field{note}{Official Berlin city portal page on the Urania World Clock at Alexanderplatz}
+      \field{title}{Weltzeituhr}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.berlin.de/sehenswuerdigkeiten/3561749-3558930-weltzeituhr.html
+      \endverb
+      \verb{url}
+      \verb https://www.berlin.de/sehenswuerdigkeiten/3561749-3558930-weltzeituhr.html
+      \endverb
+    \endentry
+    \entry{berlinUhrOfficial}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=4f554a0f7014e2bbd644d27f2ddbd7be}{%
+           family={{Berlin-Uhr-Vertrieb}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f554a0f7014e2bbd644d27f2ddbd7be}
+      \strng{fullhash}{4f554a0f7014e2bbd644d27f2ddbd7be}
+      \strng{fullhashraw}{4f554a0f7014e2bbd644d27f2ddbd7be}
+      \strng{bibnamehash}{4f554a0f7014e2bbd644d27f2ddbd7be}
+      \strng{authorbibnamehash}{4f554a0f7014e2bbd644d27f2ddbd7be}
+      \strng{authornamehash}{4f554a0f7014e2bbd644d27f2ddbd7be}
+      \strng{authorfullhash}{4f554a0f7014e2bbd644d27f2ddbd7be}
+      \strng{authorfullhashraw}{4f554a0f7014e2bbd644d27f2ddbd7be}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Official background and function principle}
+      \field{title}{Die Berlin-Uhr}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.berlin-uhr.com/
+      \endverb
+      \verb{url}
+      \verb https://www.berlin-uhr.com/
+      \endverb
+    \endentry
+    \entry{europaCenterSetTheoryClockArchive}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=9e89242e06a37282ca46057396837e7f}{%
+           family={{Europa-Center Berlin}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{9e89242e06a37282ca46057396837e7f}
+      \strng{fullhash}{9e89242e06a37282ca46057396837e7f}
+      \strng{fullhashraw}{9e89242e06a37282ca46057396837e7f}
+      \strng{bibnamehash}{9e89242e06a37282ca46057396837e7f}
+      \strng{authorbibnamehash}{9e89242e06a37282ca46057396837e7f}
+      \strng{authornamehash}{9e89242e06a37282ca46057396837e7f}
+      \strng{authorfullhash}{9e89242e06a37282ca46057396837e7f}
+      \strng{authorfullhashraw}{9e89242e06a37282ca46057396837e7f}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Archived Europa-Center page describing the original and current Berlin-Uhr locations}
+      \field{title}{Set Theory Clock}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://web.archive.org/web/20100723162117/http://www.europa-center-berlin.de/en/the-sights/set-theory-clock.html
+      \endverb
+      \verb{url}
+      \verb https://web.archive.org/web/20100723162117/http://www.europa-center-berlin.de/en/the-sights/set-theory-clock.html
+      \endverb
+    \endentry
+    \entry{commonsBerlinUhrGif}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=87825d09e9d06c6ce24fa951ccc45123}{%
+           family={LezFraniak},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{87825d09e9d06c6ce24fa951ccc45123}
+      \strng{fullhash}{87825d09e9d06c6ce24fa951ccc45123}
+      \strng{fullhashraw}{87825d09e9d06c6ce24fa951ccc45123}
+      \strng{bibnamehash}{87825d09e9d06c6ce24fa951ccc45123}
+      \strng{authorbibnamehash}{87825d09e9d06c6ce24fa951ccc45123}
+      \strng{authornamehash}{87825d09e9d06c6ce24fa951ccc45123}
+      \strng{authorfullhash}{87825d09e9d06c6ce24fa951ccc45123}
+      \strng{authorfullhashraw}{87825d09e9d06c6ce24fa951ccc45123}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Archived at: \url{https://web.archive.org/web/20241211231503/https://commons.wikimedia.org/wiki/File:Berlin-Uhr-1650-1705.gif}}
+      \field{day}{11}
+      \field{month}{7}
+      \field{note}{Wikimedia Commons animation, CC BY-SA 4.0; frames extracted and labeled in this paper}
+      \field{title}{Berlin-Uhr-1650-1705.gif}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://commons.wikimedia.org/wiki/File:Berlin-Uhr-1650-1705.gif
+      \endverb
+      \verb{url}
+      \verb https://commons.wikimedia.org/wiki/File:Berlin-Uhr-1650-1705.gif
+      \endverb
+    \endentry
+    \entry{commonsMengenlehreuhrPhoto}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=c72616d04a0698aff0c589351a36be32}{%
+           family={Muratitis},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c72616d04a0698aff0c589351a36be32}
+      \strng{fullhash}{c72616d04a0698aff0c589351a36be32}
+      \strng{fullhashraw}{c72616d04a0698aff0c589351a36be32}
+      \strng{bibnamehash}{c72616d04a0698aff0c589351a36be32}
+      \strng{authorbibnamehash}{c72616d04a0698aff0c589351a36be32}
+      \strng{authornamehash}{c72616d04a0698aff0c589351a36be32}
+      \strng{authorfullhash}{c72616d04a0698aff0c589351a36be32}
+      \strng{authorfullhashraw}{c72616d04a0698aff0c589351a36be32}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Archived at: \url{https://web.archive.org/web/20260519072739/https://commons.wikimedia.org/wiki/File:Mengenlehreuhr.jpg}}
+      \field{day}{30}
+      \field{month}{7}
+      \field{note}{Wikimedia Commons image, public domain}
+      \field{title}{Mengenlehreuhr.jpg}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://commons.wikimedia.org/wiki/File:Mengenlehreuhr.jpg
+      \endverb
+      \verb{url}
+      \verb https://commons.wikimedia.org/wiki/File:Mengenlehreuhr.jpg
+      \endverb
+    \endentry
+    \entry{commonsAlexanderplatzWorldClockPhoto}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=aed55638e4679aabb835907f69a8360c}{%
+           family={Oliva},
+           familyi={O\bibinitperiod},
+           given={Robert\bibnamedelima von},
+           giveni={R\bibinitperiod\bibinitdelim v\bibinitperiod}}}%
+      }
+      \strng{namehash}{aed55638e4679aabb835907f69a8360c}
+      \strng{fullhash}{aed55638e4679aabb835907f69a8360c}
+      \strng{fullhashraw}{aed55638e4679aabb835907f69a8360c}
+      \strng{bibnamehash}{aed55638e4679aabb835907f69a8360c}
+      \strng{authorbibnamehash}{aed55638e4679aabb835907f69a8360c}
+      \strng{authornamehash}{aed55638e4679aabb835907f69a8360c}
+      \strng{authorfullhash}{aed55638e4679aabb835907f69a8360c}
+      \strng{authorfullhashraw}{aed55638e4679aabb835907f69a8360c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{month}{7}
+      \field{note}{Wikimedia Commons image, CC0 1.0}
+      \field{title}{Alexanderplatz and the Urania World Clock.jpg}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://commons.wikimedia.org/wiki/File:Alexanderplatz_and_the_Urania_World_Clock.jpg
+      \endverb
+      \verb{url}
+      \verb https://commons.wikimedia.org/wiki/File:Alexanderplatz_and_the_Urania_World_Clock.jpg
+      \endverb
+    \endentry
+    \entry{openStreetMapTiles}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=602f2591276bacf4409eba4a627cff11}{%
+           family={{OpenStreetMap contributors}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{602f2591276bacf4409eba4a627cff11}
+      \strng{fullhash}{602f2591276bacf4409eba4a627cff11}
+      \strng{fullhashraw}{602f2591276bacf4409eba4a627cff11}
+      \strng{bibnamehash}{602f2591276bacf4409eba4a627cff11}
+      \strng{authorbibnamehash}{602f2591276bacf4409eba4a627cff11}
+      \strng{authornamehash}{602f2591276bacf4409eba4a627cff11}
+      \strng{authorfullhash}{602f2591276bacf4409eba4a627cff11}
+      \strng{authorfullhashraw}{602f2591276bacf4409eba4a627cff11}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Archived at: \url{https://web.archive.org/web/20260607132125/https://www.openstreetmap.org/}}
+      \field{note}{Map tiles and location data, Open Database License}
+      \field{title}{OpenStreetMap}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.openstreetmap.org/
+      \endverb
+      \verb{url}
+      \verb https://www.openstreetmap.org/
+      \endverb
+    \endentry
+    \entry{commonsBerlinWallMap}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=80bb012f45a0badcee2a2fcc61c58742}{%
+           family={Tohaomg},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{80bb012f45a0badcee2a2fcc61c58742}
+      \strng{fullhash}{80bb012f45a0badcee2a2fcc61c58742}
+      \strng{fullhashraw}{80bb012f45a0badcee2a2fcc61c58742}
+      \strng{bibnamehash}{80bb012f45a0badcee2a2fcc61c58742}
+      \strng{authorbibnamehash}{80bb012f45a0badcee2a2fcc61c58742}
+      \strng{authornamehash}{80bb012f45a0badcee2a2fcc61c58742}
+      \strng{authorfullhash}{80bb012f45a0badcee2a2fcc61c58742}
+      \strng{authorfullhashraw}{80bb012f45a0badcee2a2fcc61c58742}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Wikimedia Commons map data, CC0 1.0}
+      \field{title}{Data:Berlin Wall.map}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://commons.wikimedia.org/wiki/Data:Berlin_Wall.map
+      \endverb
+      \verb{url}
+      \verb https://commons.wikimedia.org/wiki/Data:Berlin_Wall.map
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
